@@ -3,8 +3,8 @@ const { fetchApi } = require("@libs/fetch");
 
 class SkyNovels {
   constructor() {
-      this.id = "GTskynovels";                     // Identificador interno
-          this.name = "GTSkyNovels";                   // Nombre de la fuente
+      this.id = "skynovels";                     // Identificador interno
+          this.name = "SkyNovels";                   // Nombre de la fuente
               this.site = "https://www.skynovels.net/";  // Sitio web principal
                   this.apiSite = "https://api.skynovels.net/api/"; // API base
                       this.version = "1.0.1";                    // Versión del conector
